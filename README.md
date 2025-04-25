@@ -54,7 +54,7 @@ Once classified, images are processed by specialized backends:
 
 #### Body-structure & Face-features
 
-Captioning models (e.g., ViT-GPT2, BLIP) generate natural-language descriptions of visible signs.
+Captioning models (e.g., ViT-GPT2, BLIP) generate text descriptions of visible signs.
 
 <div align="center">
     <img src="images/captions.png" alt="Captioning Example" width="60%">
@@ -62,7 +62,7 @@ Captioning models (e.g., ViT-GPT2, BLIP) generate natural-language descriptions 
 
 #### Medical Documents
 
-A secondary classifier identifies document subtypes (e.g., radiographies, MRIs).
+A secondary classifier identifies subtypes of medical documents (e.g., radiographies, MRIs).
 
 <div align="center">
     <img src="images/categories_medical_images.png" alt="Medical Document Categories" width="70%">
@@ -92,6 +92,6 @@ OCR extracts on-screen text from digital screenshots.
 
 ## Conclusion
 
-This pipeline integrates classification, captioning, segmentation, and OCR to process diverse image types in a unified framework. It can handle clinical photos, digitize medical documents, and extract text from screenshots efficiently.
+This pipeline integrates classification, captioning, segmentation, and OCR to process any medical image type received by a usual telemedicine platform. It can handle clinical photos, digitize medical documents, and extract text from screenshots efficiently.
 
 For more details, refer to the thesis PDF: [Information Extraction from Telemedicine Consultation Images](information_extraction_from_telemedicine_consulation_images.pdf).
